@@ -5,13 +5,13 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
-  max-width: 50px;
+  max-width: 150px;
   border-width: 3px;
-  border-color: #7386a3;
+  border-color: #111111;
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-  color: #7386a3;
+  color: #111111;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #7386a3;
+  color: #111111;
 }
 
 h1,
@@ -35,11 +35,30 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300
+}
+
+h5 {
+  font-weight: 700;
+  border-bottom: 1px solid #111
+}
+
+.project {
+  border-bottom: 1px solid #111;
+}
+
+.project div {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.project:last-of-type {
+  border-bottom: none;
 }
 
 .bg-primary {
-  background-color: #7386a3 !important;
+  background-color: #111111 !important;
 }
 
 .bg-dark {
@@ -87,7 +106,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -96,30 +115,31 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #7386a3;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #111111;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #7386a3;
+  color: #111111;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: #212529;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #7386a3;
+  color: #111111;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #7386a3 !important;
+  color: #111111 !important;
   background-color: transparent;
 }
 
@@ -155,10 +175,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #7386a3;
+    color: #111111;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #7386a3;
+    color: #111111;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -166,14 +186,15 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #7386a3;
+    color: #111111;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  /* background-image: url("../img/header.jpg"); */
+  background-color: #111;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -255,7 +276,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -286,15 +307,15 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #7386a3 !important;
+  color: #111111 !important;
 }
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border-radius: 10px;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
@@ -302,8 +323,8 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #7386a3;
-  border-color: #7386a3;
+  background-color: #111111;
+  border-color: #111111;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
