@@ -58,16 +58,20 @@
 
   <header class="masthead text-center text-white d-flex">
     <div class="container my-auto">
-      <div class="row">
-        <div class="col-md-10 mx-auto">
+      <div class="row sr-icons">
+        <div class="col-xs-1">
+          <p class="mega">[</p>
+        </div>
+        <div class="col-xs-10 mx-auto">
           <h1 class="text-uppercase">
               <strong>Michael Petschek</strong>
             </h1>
           <hr class="light">
-        </div>
-        <div class="col-md-8 mx-auto">
           <p class="text-faded mb-5">Full stack development with a design oriented background</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
+        </div>
+        <div class="col-xs-1">
+          <p class="mega">]</p>
         </div>
       </div>
     </div>
@@ -99,61 +103,28 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-diamond text-white mb-3 sr-icons"></i>
-            <h3 class="mb-3">Ruby on Rails</h3>
-            <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
-          </div>
+        <div class="col-md-6 text-center">
+          <i class="fa fa-4x fa-code text-white mb-3 sr-icons"></i>
+          <h3>Front End</h3>
+          <p>HTML5</p>
+          <p>CSS3/SCSS</p>
+          <p>jQuery</p>
+          <p>JavaScript</p>
+          <p>Ember.js</p>
+          <p>Handlebars.js</p>
         </div>
-        <div class="col-md-3 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fab fa-4x fa-node-js text-white mb-3 sr-icons"></i>
-            <h3 class="mb-3">Node.js</h3>
-            <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
-          </div>
-        </div>
-        <div class="col-md-3 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-newspaper-o text-white mb-3 sr-icons"></i>
-            <h3 class="mb-3">Express</h3>
-            <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
-          </div>
-        </div>
-        <div class="col-md-3 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-html5 text-white mb-3 sr-icons"></i>
-            <h3 class="mb-3">HTML5/CSS3</h3>
-            <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
-          </div>
+        <div class="col-md-6 text-center">
+          <i class="fa fa-4x fa-database text-white mb-3 sr-icons"></i>
+          <h3>Back End</h3>
+          <p>SQL</p>
+          <p>PostgreSQL</p>
+          <p>MongoDB</p>
+          <p>Ruby on Rails</p>
+          <p>Express.js</p>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <!-- <i class="fab fa-4x fa-js text-white mb-3 sr-icons"></i> -->
-              <!-- <h3 class="mb-3">JavaScript</h3> -->
-              <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fab fa-4x fa-js text-white mb-3 sr-icons"></i>
-              <h3 class="mb-3">JavaScript</h3>
-              <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-database text-white mb-3 sr-icons"></i>
-              <h3 class="mb-3">SQL and MongoDB</h3>
-              <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
-            </div>
-          </div>
+    </div>
 
-        </div>
-      </div>
   </section>
 
   <section class="bg-light" id="portfolio-title">
@@ -168,26 +139,42 @@
     <div class="container p-0">
       <div class="row project">
         <div class="col-md-3">
-          <h3>Rate Some Movies</h3>
-          <p><a href="https://omniczech.github.io/movie-review-client/">Live site</a></p>
-          <p><a href="https://github.com/omniczech/movie-review-client">GitHub</a></p>
+          <h3>TskTrckr</h3>
+          <p><br><a href="https://team-jorgie.github.io/team-project-front-end/" class="btn btn-dark">Live site</a><br><br><a href="https://github.com/team-jorgie/team-project-front-end" class="btn btn-dark">GitHub</a></p>
         </div>
-        <div class="col-md-6"><img class="img-fluid" src="img/portfolio/fullsize/movies.png" alt=""></div>
-        <div class="col-md-3">
+        <div class="col-md-9"><img class="img-fluid" src="img/portfolio/fullsize/tsktrckr.png" alt="">
           <h5>Description</h5>
-          <p>This project Involces both an API and a front end. Users can submit movie reviews, read reviews by others and edit and remove their own reviews.</p>
+          <p>A full stack application for task management. TskTrckr uses Ember.js as a front end JavaScript framework to allow for a live updating interface. Users can create lists and add tasks to them. Completed tasks can be checked off to indicate completion. The back end is handled by a Ruby on Rails API.</p>
+        </div>
+      </div>
+        <div class="row project">
+          <div class="col-md-3">
+            <h3>Foxy File</h3>
+            <p><br><a href="https://team-jorgie.github.io/team-project-front-end/" class="btn btn-dark">Live site</a><br><br><a href="https://github.com/team-jorgie/team-project-front-end" class="btn btn-dark">GitHub</a></p>
+          </div>
+          <div class="col-md-9"><img class="img-fluid" src="img/portfolio/fullsize/foxyfile.png" alt="">
+            <h5>Description</h5>
+            <p>This file uploading website was part of a group project. While working on this project I took the role of team lead and took responsibility for time management, planning as well as keeping other team members on track to complete the project in the allotted time. Foxy File uses a JavaScript front end, making heavy use of Handlebars.js, coupled with an express back end that interfaces with Amazon's S3 service to manage uploading of files. The website also includes the ability to make a file public or private.</p>
+          </div>
+        </div>
+      <div class="row project">
+        <div class="col-md-3">
+          <h3>Rate Some Movies</h3>
+          <p><br><a href="https://omniczech.github.io/movie-review-client/" class="btn btn-dark">Live site</a><br><br><a href="https://github.com/omniczech/movie-review-client" class="btn btn-dark">GitHub</a></p>
+        </div>
+        <div class="col-md-9"><img class="img-fluid" src="img/portfolio/fullsize/movies.png" alt="">
+          <h5>Description</h5>
+          <p>This movie review website allows users to review films and record their opinions on them. It uses a custom JavaScript front end and a Ruby on Rails back end. It integrates a Javascript package on the front end to avoid users entering bad language.</p>
         </div>
       </div>
       <div class="row project">
         <div class="col-md-3">
           <h3>Tic-Tac-Toe</h3>
-          <p><a href="https://omniczech.github.io/tic-tac-toe/">Live site</a></p>
-          <p><a href="https://github.com/omniczech/tic-tac-toe">GitHub</a></p>
+          <p><br><a href="https://omniczech.github.io/tic-tac-toe/" class="btn btn-dark">Live site</a><br><br><a href="https://github.com/omniczech/tic-tac-toe" class="btn btn-dark">GitHub</a></p>
         </div>
-        <div class="col-md-6"><img class="img-fluid" src="img/portfolio/fullsize/tic-tac.png" alt=""></div>
-        <div class="col-md-3">
+        <div class="col-md-9"><img class="img-fluid" src="img/portfolio/fullsize/tic-tac.png" alt="">
           <h5>Description</h5>
-          <p>This project utilizes an API to allow users to play games of tic-tac-toe locally and record the results.</p>
+          <p>This application allows users to register a profile, then play local games of Tic-Tac-Toe. The API records past games and can display a user's history of past games including which player won the game.</p>
         </div>
       </div>
       <!-- <div class="row no-gutters popup-gallery">
@@ -317,6 +304,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
+  <script>
+    console.log('%c Oh my heavens! ', 'background: #222; color: #bada55');
+  </script>
 
 </body>
 
