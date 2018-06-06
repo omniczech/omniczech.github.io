@@ -66,6 +66,10 @@ h5 {
   box-shadow: 1px 1px 5px #444;
 }
 
+img {
+  max-width: 100%;
+}
+
 .project a {
   float: left;
   margin-right: 10px;
