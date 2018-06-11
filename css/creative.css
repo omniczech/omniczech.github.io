@@ -31,6 +31,7 @@ a {
 
 a:hover {
   color: #111;
+  text-decoration: none;
 }
 
 h1,
@@ -52,7 +53,7 @@ h5 {
 }
 
 .btn-light:hover {
-  background-color: #babfc4;
+  background-color: #ef390b;
 }
 
 .project {
@@ -224,8 +225,10 @@ img::-moz-selection {
   }
 
   #mainNav .navbar-brand:focus,
-  #mainNav .navbar-brand:hover {
-    color: #fff;
+  #mainNav .navbar-brand:hover,
+  a.text-white:hover * {
+    color: #ef390b;
+    text-decoration: none !important;
   }
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -239,7 +242,7 @@ img::-moz-selection {
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #ef390b;
   }
 
   #mainNav.navbar-shrink {
