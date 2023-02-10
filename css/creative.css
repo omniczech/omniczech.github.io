@@ -82,18 +82,18 @@ img {
   overflow: hidden;
 }
 
-.project .col-md-3 {
+.project .col-md-4 {
   background-color: #111;
   color: #fff;
 }
 
 @media (max-width: 768px) {
-  .project .col-md-3 {
+  .project .col-md-4 {
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
-  .project .col-md-9 {
+  .project .col-md-8s {
     padding-top: 15px;
   }
 }
