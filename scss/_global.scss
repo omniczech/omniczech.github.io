@@ -23,7 +23,7 @@ a {
   color: $primary;
   @include transition-all;
   &:hover {
-    color: darken($primary, .1);
+    color: darken($primary, 0.1);
   }
 }
 
@@ -34,6 +34,7 @@ h4,
 h5,
 h6 {
   @include sans-serif-font;
+  word-wrap: anywhere;
 }
 
 .bg-primary {
@@ -45,7 +46,7 @@ h6 {
 }
 
 .text-faded {
-  color: fade-out($white, .3);
+  color: fade-out($white, 0.3);
 }
 
 section {

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
 }
 
 hr {
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -61,6 +61,7 @@ h5 {
   margin: 0 0 20px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  background-color: #fff;
 }
 
 .project img {
@@ -165,7 +166,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -176,7 +177,7 @@ img::-moz-selection {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #111;
-  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus,
@@ -364,19 +365,31 @@ header.masthead p {
   text-align: center;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-category,
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-name {
   padding: 0 15px;
-  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-name {
   font-size: 18px;
 }
 
@@ -389,11 +402,17 @@ header.masthead p {
 }
 
 @media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-category {
     font-size: 16px;
   }
 
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-name {
     font-size: 22px;
   }
 }
@@ -407,7 +426,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 2px;
-  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
 }
 
 .btn-xl {
